@@ -1,0 +1,14 @@
+[
+  {
+    "id": "APT-1788421894836",
+    "fullName": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "phone": "9876543210",
+    "service": "Whitening",
+    "preferredDate": "2026-09-10",
+    "preferredTime": "11:00",
+    "message": "First visit consultation",
+    "createdAt": "2026-09-03T07:51:34.836Z",
+    "status": "pending"
+  }
+]
