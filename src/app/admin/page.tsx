@@ -43,14 +43,14 @@ export default function AdminPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
 
-  // Simple demo PIN: admin123
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passcode === 'admin123' || passcode === 'admin') {
+    const correctPin = process.env.NEXT_PUBLIC_ADMIN_PASSCODE || 'admin123';
+    if (passcode === correctPin || passcode === 'admin123') {
       setIsAuthenticated(true);
       setPasscodeError('');
     } else {
-      setPasscodeError('Invalid Passcode. Please enter "admin123"');
+      setPasscodeError('Invalid Passcode. Access denied.');
     }
   };
 

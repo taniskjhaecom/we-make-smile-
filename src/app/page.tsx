@@ -33,7 +33,7 @@ export default function HomePage() {
       <div id="hero-tour" className="relative">
         <VideoScrubber
           videoFramePath="/videos/video_1_frames"
-          totalFrames={240}
+          totalFrames={227}
           overlayTitle="We Make Smiles - Professional Dental Care"
           overlayDescription="Your journey to perfect smiles starts here."
           extension="webp"
@@ -55,7 +55,7 @@ export default function HomePage() {
       <div id="clinic-continuity" className="relative">
         <VideoSection3
           videoFramePath="/videos/video_3_frames"
-          totalFrames={240}
+          totalFrames={211}
           overlayTitle="Professional Clinic Design - Built for Your Comfort"
           overlayDescription="Every space designed for your peace of mind."
           extension="webp"

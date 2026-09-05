@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://wemakesmiles.dental';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: 'WE MAKE SMILES | Luxury Dental & Cosmetic Care Clinic',
   description:
     'Experience world-class dental care, cosmetic transformations, Invisalign, and implants at WE MAKE SMILES. State-of-the-art interactive clinic walkthrough.',
